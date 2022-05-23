@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 body {
-  background-color: aqua;
+  background-color: white;
 }
 
 header {
   width: 80%;
   margin: 75px auto 0 auto;
-  font-family: fantasy;
+  font-family: 'Indie Flower', cursive;
   font-size: 3em;
 }
 
