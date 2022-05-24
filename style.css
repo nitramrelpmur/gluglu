@@ -14,3 +14,41 @@ header {
 #Fish-Emoji {
   font-size: 3em;
 }
+
+#fish {
+  position: relative;
+  animation-duration: 4s;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move {
+  from {
+    left: 0;
+    top: 0px;
+    transform: rotate(0.1turn);
+  }
+
+  25% {
+    top: 50px;
+    transform: rotate(-0.1turn);
+  }
+
+  50% {
+    top: 0px;
+    transform: rotate(0.1turn);
+  }
+
+  75% {
+    top: -50px;
+    transform: rotate(-0.1turn);
+  }
+
+  to {
+    left: 50%;
+    top: 0px;
+    transform: rotate(0.1turn);
+  }
+}
+
