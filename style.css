@@ -8,14 +8,20 @@ header {
   width: 80%;
   margin: 75px auto 0 auto;
   font-family: 'Indie Flower', cursive;
-  font-size: 3em;
+  font-size: 1.5em;
+}
+
+header h2 {
+  margin-bottom: 2em;
 }
 
 #Fish-Emoji {
   font-size: 3em;
 }
 
+
 #fish {
+  max-width: 30%;
   position: relative;
   animation-duration: 4s;
   animation-name: move;
@@ -52,3 +58,11 @@ header {
   }
 }
 
+@media (min-width: 30em) {
+  header {
+    font-size: 3em;
+  }
+  #fish {
+    width: 192px;
+  }
+}
