@@ -2,12 +2,17 @@
 
 body {
   background-color: white;
+  background-image: url('images/bg-day.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 header {
   width: 80%;
   margin: 75px auto 0 auto;
   font-family: 'Indie Flower', cursive;
+  text-align: center;
 }
 
 header h2 {
